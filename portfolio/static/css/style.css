@@ -1,0 +1,53 @@
+body {
+    font-family: 'Libre Baskerville', serif;
+}
+.navbar-brand {
+    font-family: 'Carter One', cursive;         
+}
+.nav-link{
+    font-size: 20px;
+}
+.col .card .card-body .card-title{
+    font-size:20px;
+    color: #262626;
+}
+.col .card .card-body .card-text{
+    font-family: 'Open Sans', sans-serif;
+    font-size:15px;
+    color: #262626;
+}
+.page-header h1 {
+    font-family: 'Libre Baskerville', serif;
+    font-size: 58px;
+    text-align: center;
+    line-height: 80px;
+    font-weight: 900;
+    padding: 35px 0 0 0;
+    color: #262626;
+}
+.page-header p{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 20px;
+    line-height: 55px;
+    font-weight: 300;
+    display: block;
+    color: #262626;
+}
+.blog-post-title{
+    font-size: 25px;
+}
+.col .card .card-body p{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 12px;
+    color: #727272;
+}
+.blog-post-meta{
+    margin-bottom: 1.25rem;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 14px;
+    color: #727272;
+}
+.blog-post p{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 18px;
+}

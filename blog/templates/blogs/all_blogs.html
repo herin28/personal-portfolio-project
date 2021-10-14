@@ -1,0 +1,17 @@
+{% extends 'portfolio/base.html'%}
+{% block content %}
+    {% load static %}
+    <h1>Blogs</h1>
+    <h3 class="text-center">Herin has written {{blogs.count}} blog{{blogs.count|pluralize}}</h3>
+    {% for blog in blogs%}
+    <div class="col col-lg-8 mb-4">
+        <div class="card shadow">
+            <div class="card-body">
+                <h4><a class="card-title" href="{% url 'blog:detail' blog.id %}">{{ blog.blog_title }}</a></h4>
+                <p class="card-text">{{ blog.blog_description }}</p>
+                <p>{{ blog.blog_date|date:"d F Y h:iA" }}</p>
+            </div>
+        </div>
+    </div>
+    {% endfor %}
+{% endblock %}

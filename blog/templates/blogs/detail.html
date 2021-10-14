@@ -1,0 +1,9 @@
+{% extends 'portfolio/base.html'%}
+{% block content %}
+    {% load static %}
+    <article class="blog-post col-lg-10">
+      <h2 class="blog-post-title">{{ blog.blog_title }}</h2>
+      <p class="blog-post-meta">{{ blog.blog_date|date:"d F Y h:i:A" }}</p> 
+      <p>{{ blog.blog_description }}</p> 
+    </article>
+{% endblock %}
